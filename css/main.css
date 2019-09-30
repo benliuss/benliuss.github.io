@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b36cff;
+  background: #ff32bf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2905,9 +2905,39 @@ hr {
     text-align: center;
   }
 }
+.container.sidebar-position-left.page-post-detail {
+  background-image: url("https://wx3.sinaimg.cn/large/007YR6G0ly1g7gcdoxn0uj30m80tmgq9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 20%;
+}
+.header {
+  background: transparent;
+}
+.header-inner {
+  width: 800px;
+  padding: 50px 0;
+}
+.site-meta .site-title {
+  font-size: 26px;
+}
+.main-inner {
+  background: #f5f5f5;
+  padding: 50px;
+  margin-top: 0;
+}
 .post-block {
   font-size: 16px;
 }
 .post-body {
   text-indent: 2em;
+}
+.footer {
+  background: #000;
+  color: #f5f5f5;
+  opacity: 0.6;
+}
+.footer-inner {
+  width: 800px;
 }
