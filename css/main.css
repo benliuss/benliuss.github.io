@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff32bf;
+  background: #28ff3d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2905,7 +2905,7 @@ hr {
     text-align: center;
   }
 }
-.container.sidebar-position-left.page-post-detail {
+body {
   background-image: url("https://wx3.sinaimg.cn/large/007YR6G0ly1g7gcdoxn0uj30m80tmgq9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
