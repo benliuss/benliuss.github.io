@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4e4142;
+  background: #2fff39;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2864,7 +2864,6 @@ hr {
   }
 }
 @media (max-width: 767px) {
-  .header .header-inner,
   .container .main-inner {
     width: auto;
   }
@@ -2906,7 +2905,7 @@ hr {
   }
 }
 body {
-  background-image: url("https://wx3.sinaimg.cn/large/007YR6G0ly1g7gcdoxn0uj30m80tmgq9.jpg");
+  background-image: url("/images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -2926,6 +2925,10 @@ body {
   background: #f5f5f5;
   padding: 50px;
   margin-top: 0;
+  opacity: 0.85;
+}
+.posts-expand .post-meta {
+  font-size: 14px;
 }
 .post-block {
   font-size: 16px;
@@ -2940,4 +2943,37 @@ body {
 }
 .footer-inner {
   width: 800px;
+}
+@media (max-width: 767px) {
+  .header .header-inner,
+  .container .main-inner,
+  .footer .footer-inner {
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .header .header-inner {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .container .main-inner {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 767px) {
+  .site-meta .site-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .posts-expand .post-meta {
+    font-size: 13px;
+  }
+}
+@media (max-width: 767px) {
+  .posts-expand .post-body,
+  .post-nav-item a {
+    font-size: 15px;
+  }
 }
